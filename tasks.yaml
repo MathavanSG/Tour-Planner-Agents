@@ -1,0 +1,31 @@
+travel_options_research:
+  description: >
+    Research various travel options to the destination city, including flights, trains, and car rentals. Gather details on costs, schedules, and availability.
+    Destination city: {destination_city}
+    Number of days: {number_of_days}
+  expected_output: >
+    A report with detailed information on travel options, including costs and schedules, formatted as markdown.
+
+local_events_activities_research:
+  description: >
+    Gather information about the latest events, activities, and trends in the destination city. Include details on costs, schedules, and any necessary reservations.
+    Destination city: {destination_city}
+    Current date: {current_date}
+  expected_output: >
+    A report with detailed information on local events and activities, formatted as markdown.
+
+accommodation_research:
+  description: >
+    Research various accommodation options in the destination city, including costs, availability, and amenities.
+    Destination city: {destination_city}
+    Number of days: {number_of_days}
+  expected_output: >
+    A report with detailed information on accommodation options, formatted as markdown.
+
+comprehensive_budget_planning:
+  description: >
+    Compile all the costs from travel, accommodation, activities, and food into a detailed budget plan. Ensure that every small cost is accounted for.
+    Destination city: {destination_city}
+    Number of days: {number_of_days}
+  expected_output: >
+    A comprehensive budget report in INR, formatted as markdown.
